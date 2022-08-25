@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/images/sports.png");
+    }
+
+ * {
+     text-decoration: none;
+     margin: 0;
+     padding: 0;
+ }
+
+
+
+ .wrapper {
+     width: 1100px;
+     margin: auto;
+     position: relative;
+ }
+
+ .logo a {
+    font-size: 35px;
+    font-weight: 400;
+    float: left;
+    font-family: "Montserrat", sans-serif;
+    color: #413e66;
+ }
+
+ .menu {
+     float: right;
+     display: inline;
+ }
+
+
+ nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+    color: black;
+    font-weight: bold;
+ }
+
+ nav {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    top: 0;
+    background: #fff;
+}
+
+
+nav ul li:hover{
+    text-decoration: underline;
+}
+
+header {
+    display: inline;
+    z-index: 10;
+}
+
+ article {
+     margin: auto;
+     display: flex;
+     margin-bottom: 50px;
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   border-radius: 5px;
+   padding: 20px;
+   margin-top: 20px;
+ }
+
+
+ .kolom {
+    margin-top: 5px;
+    margin-bottom: 50px;
+ }
+ 
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans ms';
+    color: #2B2E4A;
+}
+
+h2 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #2B2E4A;
+    width: 100%;
+    line-height: 50px;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+a.tbl-biru {
+    background: #A6B1E1;
+    border-radius: 20px;
+    margin-top: 20px ;
+    padding: 10px 15px 10px 15px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #2B2E4A;
+    text-decoration: none;
+}
+
+a.tbl-hijau {
+    background: #62D2A2;
+    border-radius: 20px ;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-hijau:hover {
+    background: #2B2E4A;
+    text-decoration: none;
+}
+
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 10px 0px 10px 0px;
+    margin-right: 100px;
+}
+
+h3 {
+        font-family: 'comic sans ms';
+        font-weight: 800;
+        font-size: 30px;
+        margin-bottom: 50pxpx;
+        color: #2B2E4A;
+        width: 100%;
+        line-height: 50px;
+        text-align: center;
+}
+
+.content {
+    border-radius: 10px;
+    z-index: -10;
+}
+
+
+.featured-image {
+    width: 100%;
+    max-height: 400px;
+    max-width: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.content-image1 {
+    width: 100%;
+    max-height: 200px;
+    max-width: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 200px;
+}
+
+.content-image2 {
+    width: 100%;
+    max-height: 200px;
+    max-width: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+.content-image3 {
+    width: 100%;
+    max-height: 200px;
+    max-width: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin-top: 150px;
+    margin-right: 50px;
+}
+
+aside {
+    float: left;
+    margin: auto;
+    width: 25%;
+}
+
+aside img {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 50%;
+    border-top: 50%;
+}
+
+section {
+    width: 75%;
+    margin: auto;
+}
+
+figure {
+    text-align: center;
+}
+
+
+aside header {
+    z-index: -10;
+}
+
+h3 {
+    font-family: 'comic sans ms';
+    font-weight: 800;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: #2B2E4A;
+    width: 100%;
+    line-height: 50px;
+    margin: 0 auto;
+    z-index: 100;
+}
+
+#copyright {
+    background-color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 50px 0px 50px 0px;
+    margin-top: 50px;
+}
+
+
+.kolom-profile {
+    width: 100%;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .content {
+        width: 90%;
+    }
+
+    .logo a {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    nav {
+        z-index: 1;
+        padding: 0;
+    }
+
+    nav .menu {
+        width: 100%;
+        margin: 0;
+    }
+
+    nav ul {
+        justify-content: space-evenly;
+    }
+
+    nav .menu ul {
+        text-align: center;
+        margin: auto;
+        line-height: 60px;
+    }
+
+    nav .menu ul li {
+        display: inline;
+        float: none;
+    }
+
+    article {
+        display: block;
+    }
+
+    img {
+        display: block;
+        width: 100%;
+    }
+
+    aside {
+        display: block;
+        width: 100%;
+    }
+
+    aside img {
+        width: 50%;
+    }
+
+    section {
+        text-align: center;
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+}
