@@ -119,7 +119,9 @@ class User extends CI_Controller
         $gambar = $this->upload->data('file_name');
         // $this->db->set('image', $new_image);
       } else {
-        echo $this->upload->display_errors();
+        // echo $this->upload->display_errors();
+        $this->session->set_flashdata('message', '<div class="alert alert-danger" role="alert"> ' . $this->upload->display_errors() . '</div>');
+        redirect('User/list');
       }
     }
 

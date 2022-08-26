@@ -4,8 +4,9 @@
   <!-- Page Heading -->
   <h1 class="h3 mb-4 text-gray-800"><?= $title; ?></h1>
 
-  <div class="row">
+  <div class="row mb-4">
     <div class="col-lg-12">
+      <?= $this->session->flashdata('message'); ?>
 
       <form method="POST" action="<?= base_url('User/simpan_article') ?>" enctype="multipart/form-data">
 
